@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6681AED1-4CFA-4E49-9708-DD55398A35A4}</ProjectGuid>
+    <ProjectGuid>{9EFC9E2B-D796-4134-8FF5-93ABA4B59C11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AdapterPattern</RootNamespace>
-    <AssemblyName>AdapterPattern</AssemblyName>
+    <RootNamespace>TemplatePattern</RootNamespace>
+    <AssemblyName>TemplatePattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adaptee.cs" />
-    <Compile Include="Adapter.cs" />
+    <Compile Include="AbstractClass.cs" />
+    <Compile Include="ConcreteClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
